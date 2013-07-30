@@ -7,7 +7,7 @@
  <title>Tube Map by Fahim Chowdhury</title>
  <meta name="author" content="Fahim Chowdhury" />
 <meta name="description" content="London Tube Map"/>
- 
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
  <link type="text/css" rel="stylesheet" href="resource/css/style.css" />
  <script type="text/javascript" src="lib/fahimchowdhury/toolkitMax-v1014-compressed.js"></script>
  <script type="text/javascript" src="src/com/media/image/ImageScroller.js"></script>
@@ -18,9 +18,9 @@
  <div id="header">
  	<h1>LONDON TUBE MAP</h1>
  	<ul>
- 		<li onclick="imageScroller.zoomIn()" class="plus"></li>
- 		<li onclick="imageScroller.zoomOut()" class="minus"></li>
- 		<li onclick="imageScroller.center()" class="center"></li>
+ 		<li onmousedown="imageScroller.zoomIn()" class="plus"></li>
+ 		<li onmousedown="imageScroller.zoomOut()" class="minus"></li>
+ 		<li onmousedown="imageScroller.center()" class="center"></li>
  	</ul>
  	<div class="clearBoth"></div>
  </div>
